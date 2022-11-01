@@ -8,7 +8,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //MongoDB setup to connect to DB
 MongoClient.connect(
-  "mongodb+srv://admin:admin123@cluster0.nbere0m.mongodb.net/?retryWrites=true&w=majority"
+  //
+  // ===================== USER NAME AND PASSWORD OF Mongo goes after srv:// ← here
+  //
+  "mongodb+srv://@cluster0.nbere0m.mongodb.net/?retryWrites=true&w=majority"
 )
   .then((client) => {
     console.log("Connected to database");
