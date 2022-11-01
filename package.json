@@ -1,0 +1,21 @@
+{
+  "name": "star-wars-quote-app",
+  "version": "1.0.0",
+  "description": "It is a Star Wars CRUD app where you can store quotes from Star Wars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Patryk Majchrzak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
